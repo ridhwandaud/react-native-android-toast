@@ -8,7 +8,7 @@ This project serves as a boilerplate to create custom React Native native module
     * Customize the Java package name (`com.domain.package`) as follows:
         1. Modify it in `android/src/main/AndroidManifest.xml`.
         2. Rename the folders starting from `android/src/main/java` to match your package name.
-        3. Adjust `package io.cmichel.boilerplate;` in the top of the `Module.java` and `Package.java` files in `android/src/main//java/package/path` to match it.
+        3. Adjust `package com.ridhwandaud.boilerplate;` in the top of the `Module.java` and `Package.java` files in `android/src/main//java/package/path` to match it.
     * Edit the name of your module in 
 
         ```java
