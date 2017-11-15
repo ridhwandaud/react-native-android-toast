@@ -1,7 +1,7 @@
 {
-  "name": "react-native-android-library-boilerplate",
+  "name": "react-native-android-toast",
   "version": "0.0.1",
-  "author": "Christoph Michel http://cmichel.io",
+  "author": "Ridhwan Daud http://ridhwandaud.com",
   "private": false,
   "license": "Unlicense",
   "repository": {
