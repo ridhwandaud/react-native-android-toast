@@ -28,7 +28,7 @@ This project serves as a boilerplate to create custom React Native native module
 There are many ways to do this, here's the way I do it:
 
 1. Push it to **GitHub**.
-2. Do `npm install --save git+https://github.com/MrToph/react-native-android-library-boilerplate.git` in your main project.
+2. Do `npm install --save git+https://github.com/ridhwandaud/react-native-library-boilerplate.git` in your main project.
 3. Link the library:
     * Add the following to `android/settings.gradle`:
         ```
