@@ -50,7 +50,7 @@ There are many ways to do this, here's the way I do it:
         ```java
         package com.motivation;
 
-        import io.cmichel.boilerplate.Package;  // add this for react-native-android-library-boilerplate
+        import com.ridhwandaud.boilerplate.Package;  // add this for react-native-android-library-boilerplate
 
         public class MainApplication extends Application implements ReactApplication {
 
@@ -66,7 +66,7 @@ There are many ways to do this, here's the way I do it:
 4. Simply `import/require` it by the name defined in your library's `package.json`:
 
     ```javascript
-    import Boilerplate from 'react-native-android-library-boilerplate'
-    Boilerplate.show('Boilerplate runs fine', Boilerplate.LONG)
+    import Toast from 'react-native-android-toast'
+    Toast.show('Toast runs fine', Toast.LONG)
     ```
 5. You can test and develop your library by importing the `node_modules` library into **Android Studio** if you don't want to install it from _git_ all the time.
