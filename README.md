@@ -1,4 +1,4 @@
-## React Native Android Library Boilerplate
+## React Native Android Toast Example
 This project serves as a boilerplate to create custom React Native native modules that can later be installed through NPM and easily be used in production.
 
 ## Getting started
