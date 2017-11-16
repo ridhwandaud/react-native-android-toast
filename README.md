@@ -9,12 +9,13 @@ This project serves as a boilerplate to create custom React Native native module
         1. Modify it in `android/src/main/AndroidManifest.xml`.
         2. Rename the folders starting from `android/src/main/java` to match your package name.
         3. Adjust `package com.ridhwandaud.boilerplate;` in the top of the `Module.java` and `Package.java` files in `android/src/main//java/package/path` to match it.
-    * Edit the name of your module in 
+    * Edit the name of your module in (this will be the class when import in react native.
+    * Example import Toast from 'react-native-android-toast';
 
         ```java
         @Override
         public String getName() {
-            return "Boilerplate";
+            return "Toast";
         }
         ```
 
